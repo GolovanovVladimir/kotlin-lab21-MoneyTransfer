@@ -4,14 +4,14 @@ fun main() {
     var flag = -1
     var percentCommission = 0.75
     val minAmount = 35
-    var input : String
+//    var input : String
 
     println("Программа расчета при переводе")
     while (flag == -1) {
         println("Выберите сумму операции в рублях: ")
         println("0-Выход из программы")
 
-        input = readLine()!!
+        var input = readLine()!!
         when (input) {
             "0" -> {
                 flag = 0; break
